@@ -74,3 +74,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# User
+/.settings
+/assets
+/gen
+/libs
+/obj
+/bin
+

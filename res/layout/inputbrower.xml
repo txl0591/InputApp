@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/windowBk_color"  >
+    
+<HorizontalScrollView
+    android:id="@+id/BrowerInfo"
+    android:layout_width="600dp"
+    android:layout_height="660dp"
+	>
+    <LinearLayout
+    android:id="@+id/linearLayout1" 
+	android:layout_height="fill_parent" 
+	android:layout_width="wrap_content" 
+	android:orientation="vertical"
+	> 
+	<com.intput.Ctrl.ListCtrl 
+    android:id="@+id/BrowerTop" 
+    android:layout_width="600dp" 
+	android:layout_height="wrap_content" 
+    /> 
+   <com.intput.Ctrl.ListCtrl 
+    android:id="@+id/BrowerCard" 
+    android:layout_width="600dp" 
+	android:layout_height="wrap_content" 
+    /> 
+   </LinearLayout>
+</HorizontalScrollView>   
+ 
+<TextView
+        android:id="@+id/Text_VERSION"
+        android:layout_width="100dp"
+    	android:layout_height="50dp" 
+    	android:textSize="20dp"
+    	android:gravity="left"
+     	android:layout_marginLeft="20dp"
+     	android:layout_alignParentBottom="true"
+     	android:layout_marginBottom="31dp"
+        />
+
+<Button
+        android:id="@+id/InputBrowerTime"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginRight="400dp"
+        android:textSize="20dp" 
+        android:drawableLeft="@android:drawable/ic_menu_day"
+        android:text="@string/MAIN_Calculation" />
+
+<Button
+        android:id="@+id/InputBrowerNew"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginRight="280dp"
+        android:textSize="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_add"
+        android:text="@string/MAIN_NEW" />
+<Button
+        android:id="@+id/InputBrowerEdit"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginRight="160dp"
+        android:textSize="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_edit"
+        android:text="@string/MAIN_EDIT" />
+
+<Button
+        android:id="@+id/InputBrowerClear"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="31dp"
+        android:layout_marginRight ="40dp"
+        android:textSize="20dp"
+        android:drawableLeft="@android:drawable/ic_menu_delete"
+        android:text="@string/MAIN_DELETE" />	  
+</RelativeLayout>

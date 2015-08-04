@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">回弹数据处理器</string>
+    <string name="Main_Data">数据处理</string>
+    <string name="Main_Input">采集</string>
+    <string name="Main_Seach">查看</string>
+    <string name="Main_Setting">设置</string>
+    <string name="Main_Help">帮助</string>
+    
+    <string name="MAIN_GJMC">构件名称</string>
+    <string name="MAIN_GJH">构件号</string>
+    <string name="MAIN_CQS">测区数</string>
+    <string name="MAIN_CSM">测试面</string>
+    <string name="MAIN_JD">角    度</string>
+    <string name="MAIN_FF">方    法</string>
+    <string name="MAIN_BS">泵    送</string>
+    <string name="MAIN_QHDJ">强度等级</string>
+    <string name="MAIN_GLLX">骨料类型</string>
+    
+    <string name="MAIN_LAST">上一组</string>
+    <string name="MAIN_NEXT">下一组</string>
+    <string name="MAIN_CQSSHOW">测区</string>
+    
+    <string name="MAIN_NEW">新建</string>
+    <string name="MAIN_EDIT">修订</string>
+    <string name="MAIN_CLEAR">批量删除</string>
+    <string name="MAIN_SEND">发送</string>
+    <string name="MAIN_QUEUE">查询</string>
+    <string name="MAIN_DELETE">删除</string>
+    <string name="MAIN_RANDOM">数据测试</string>
+    <string name="MAIN_REG">注册码</string>
+    <string name="MAIN_START">起始构件号</string>
+    <string name="MAIN_STOP">结束构件号</string>
+    <string name="MAIN_VERSION">系统版本</string>
+    <string name="MAIN_Telephone">电话：13599446813</string>
+    <string name="MAIN_Company">芯软科技</string>
+    <string name="MAIN_Calculation">结果</string>
+    <string name="MAIN_OUTPUT">生成txt</string>
+    
+    <string name="MAIN_HITDel">是否删除该条记录！</string>
+    <string name="MAIN_HITClear">是否清空批量数据！</string>
+    <string name="MAIN_HITLoadingEmpty">当前无加载数据!</string>
+    <string name="MAIN_HIT">注意</string>
+    <string name="MAIN_SAVEOK">保存成功!</string>
+    <string name="MAIN_SAVEERR">保存失败!</string>
+    <string name="MAIN_REGEROR">注册码无效!</string>
+    <string name="MAIN_HITGJHERROR">构件号范围无效!</string>
+    <string name="MAIN_HITNOSAVE">当前记录是否保存</string>
+    <string name="MAIN_HITSENDING">发送中，请稍后！</string>
+    <string name="MAIN_HITLOADING">加载中，请稍后！</string>
+    <string name="MAIN_HITDELECTING">删除中，请稍后！</string>
+    <string name="MAIN_HITSAVEING">生成中，请稍后！</string>
+    
+    
+    <string name="MAIN_HITMINQD">最小强度</string>
+    <string name="MAIN_HITAVGQD">平均强度</string>
+    <string name="MAIN_HITAVGTH">平均碳化</string>
+    <string name="MAIN_HITBZC">标准差</string>
+    <string name="MAIN_HITGJQDZ">强度推定值</string>
+    <string name="MAIN_HITCQQD">测区强度值</string>
+    
+    <string name="MAIN_INPUTCQS">请输入测区数</string>
+    
+    
+    <string name="YES">确定</string>
+    <string name="NO">取消</string>
+    <string name="OK">是</string>
+    <string name="EXIT">否</string>
+    
+    <string-array name="CSM">
+     <item>侧面</item>
+     <item>底面</item>
+     <item>表面</item>
+	</string-array>
+	
+    <string-array name="FF">
+     <item>回弹</item>
+     <item>高强回弹</item>
+	</string-array>
+	
+    <string-array name="BS">
+     <item>是</item>
+     <item>非</item>
+	</string-array>
+	
+    <string-array name="JD">
+	 <item>水平-90度</item>
+	 <item>水平-60度</item>
+	 <item>水平-45度</item>
+	 <item>水平-30度</item>
+     <item>水平0度</item>
+     <item>水平30度</item>
+     <item>水平45度</item>
+     <item>水平60度</item>
+     <item>水平90度</item>
+	</string-array>
+	
+    <string-array name="CQS">
+	    <item>01</item>
+	    <item>02</item>
+	    <item>03</item>
+	    <item>04</item>
+	    <item>05</item>
+	    <item>06</item>
+	    <item>07</item>
+	    <item>08</item>
+	    <item>09</item>
+	    <item>10</item>
+	    <item>11</item>
+	    <item>12</item>
+	    <item>13</item>
+	    <item>14</item>
+	    <item>15</item>
+	    <item>16</item>
+	</string-array>
+	
+	<string-array name="TH">
+	    <item>0.0</item>
+	    <item>0.5</item>
+	    <item>1.0</item>
+	    <item>1.5</item>
+	    <item>2.0</item>
+	    <item>2.5</item>
+	    <item>3.0</item>
+	    <item>3.5</item>
+	    <item>4.0</item>
+	    <item>4.5</item>
+	    <item>5.0</item>
+	    <item>5.5</item>
+	    <item>6.0</item>
+	</string-array>
+	
+	<string-array name="GLLX">
+	    <item>碎石</item>
+	    <item>卵石</item>
+	</string-array>
+	
+	<string-array name="QHDJ">
+	    <item>C10</item>
+	    <item>C15</item>
+	    <item>C20</item>
+	    <item>C25</item>
+	    <item>C30</item>
+	    <item>C35</item>
+	    <item>C40</item>
+	    <item>C45</item>
+	    <item>C50</item>
+	    <item>C55</item>
+	    <item>C60</item>
+	    <item>C65</item>
+	    <item>C70</item>
+	    <item>C75</item>
+	    <item>C80</item>
+	    <item>C85</item>
+	    <item>C90</item>
+	</string-array>
+</resources>
